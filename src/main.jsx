@@ -22,12 +22,15 @@ const initMotion = async () => {
     smoothWheel: true,
   });
 
-  function raf(time) {
-    lenis.raf(time);
-    requestAnimationFrame(raf);
-  }
+  // Lenis takes over scrolling, so ScrollTrigger stops seeing native scroll
+  // events. Without these three lines every scroll-triggered reveal keeps its
+  // `opacity: 0` start state and the whole page below the hero stays invisible.
+  lenis.on('scroll', ScrollTrigger.update);
+  gsap.ticker.add((time) => lenis.raf(time * 1000));
+  gsap.ticker.lagSmoothing(0);
 
-  requestAnimationFrame(raf);
+  // Fonts and images settle after first paint and shift trigger positions.
+  ScrollTrigger.refresh();
 };
 
 window.addEventListener('load', () => {
