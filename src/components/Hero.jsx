@@ -49,13 +49,13 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
             <a 
               href="https://wa.me/919766838529?text=Hi! I'd like to book a table at Elephant and Co. Kalyani Nagar" 
-              className="bg-[#EA580C] hover:bg-[#F97316] text-[#FFFFFF] font-['Poppins'] font-semibold h-[48px] px-8 rounded-[12px] flex items-center justify-center transition-all shadow-[0_0_20px_rgba(234,88,12,0.15)] focus:outline-none focus:ring-4 focus:ring-[#F97316]"
+              className="bg-[#C2410C] hover:bg-[#9A3412] text-[#FFFFFF] font-['Poppins'] font-semibold h-[48px] px-8 rounded-[12px] flex items-center justify-center transition-all shadow-[0_0_20px_rgba(234,88,12,0.15)] focus:outline-none focus:ring-4 focus:ring-[#F97316]"
             >
               Book on WhatsApp
             </a>
             <a 
               href="#drinks-bites" 
-              className="border-[1px] border-[#F97316] text-[#F97316] hover:bg-[#F97316] hover:text-[#FFFFFF] font-['Poppins'] font-semibold h-[48px] px-8 rounded-[12px] flex items-center justify-center transition-all focus:outline-none focus:ring-4 focus:ring-[#F97316]"
+              className="border-[1px] border-[#F97316] text-[#F97316] hover:bg-[#9A3412] hover:text-[#FFFFFF] font-['Poppins'] font-semibold h-[48px] px-8 rounded-[12px] flex items-center justify-center transition-all focus:outline-none focus:ring-4 focus:ring-[#F97316]"
             >
               View the menu
             </a>
@@ -69,8 +69,7 @@ const Hero = () => {
           src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlQ9BcYKtEYL5O0Ch56B8w4VNrOSfoopHmQibt6J2dMgJNFKTIbXY5QgFpqZTu-wIzaKcmX77Mhyc5HOk9F-HHat_RRWWpR2o1leRfHwBxo5lnQmuAoK35CbJzfioMABo3T9JsJaiJ27bc=w1920-h1080-k-no"
           alt="Elephant and Co. Kalyani Nagar's entrance signage lit up after dark, warm string lights setting the mood for the evening."
           fetchpriority="high"
-          className="w-full h-full object-cover"
-        />
+          className="w-full h-full object-cover" width="1200" height="800" decoding="async" />
       </div>
 
       <div className="relative max-w-7xl mx-auto mt-12 z-20 grid grid-cols-1 md:grid-cols-3 gap-4">

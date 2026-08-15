@@ -50,7 +50,7 @@ const Events = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center bg-[#EA580C] text-white font-['Poppins'] font-semibold min-h-[44px] px-8 rounded-[12px] hover:bg-[#F97316] transition-all duration-220 hover:-translate-y-[2px] w-fit focus:outline-none focus:ring-4 focus:ring-[#F97316]"
+            className="inline-flex items-center justify-center bg-[#C2410C] text-white font-['Poppins'] font-semibold min-h-[44px] px-8 rounded-[12px] hover:bg-[#9A3412] transition-all duration-220 hover:-translate-y-[2px] w-fit focus:outline-none focus:ring-4 focus:ring-[#F97316]"
           >
             Enquire on WhatsApp
           </a>

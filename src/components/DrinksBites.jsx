@@ -107,7 +107,7 @@ const DrinksBites = () => {
       <div className="flex justify-center">
         <a 
           href="https://wa.me/919766838529?text=Hi!%20I'd%20like%20to%20see%20today's%20menu%20at%20Elephant%20and%20Co.%20Kalyani%20Nagar."
-          className="inline-flex items-center justify-center bg-[#EA580C] text-white font-['Poppins'] font-semibold px-8 h-[48px] rounded-[12px] hover:bg-[#F97316] transition-all duration-220 hover:-translate-y-[2px] shadow-[0_0_20px_rgba(234,88,12,0.15)]"
+          className="inline-flex items-center justify-center bg-[#C2410C] text-white font-['Poppins'] font-semibold px-8 h-[48px] rounded-[12px] hover:bg-[#9A3412] transition-all duration-220 hover:-translate-y-[2px] shadow-[0_0_20px_rgba(234,88,12,0.15)]"
         >
           Ask for today's menu on WhatsApp
         </a>

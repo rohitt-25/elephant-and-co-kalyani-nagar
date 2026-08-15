@@ -45,7 +45,9 @@ function App() {
       <div className="noise-overlay" aria-hidden="true" />
       <Header />
       
-      <main className="main-content">
+      <a href="#main" className="skip-link">Skip to content</a>
+      
+      <main id="main" className="main-content">
         <section id="hero-section">
           <Hero />
           <div id="trust-strip" className="trust-grid">
@@ -88,13 +90,13 @@ function App() {
 
         <section id="vibe">
           <div className="gallery">
-            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwfO6UFUuo1Eg55iA9NBD8w0F4kasf9MsqvKqwfd3DI8K-M9uiSyl5NGSwvxSjSs-LLI4XCDkhdhNHshNlUHgIksBX2yDVbbZ7ECv2O2SbM2ILZmdDZm2eSGaGnihIBcnvVousrA=w1920-h1080-k-no" alt="Vibe 1" />
-            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmEEV0o_ht5evq-q6i1-pQvgwwG9JDn7PisvEogQ3UYXPUJUJwdlhkqvjqrD9TrbL3sU9wUciiX8XB2rNwhESxekFwbdujWqa2ojH_EOGZQfS2s_h3Pn-wi7VLACT1cXoF1Rzcw8eAYUFA=w1920-h1080-k-no" alt="Vibe 2" />
-            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn53hOqWLZB0V9U_oHRdZKEzRSQ8qTFzrAElf3cGqmnkXfTUzUyaQp0KttoaHCdy24yT1H_dW7CFSNxadi6jIedRDn5Nm7X3mMc7nGmYVcgON5yklkpatKHsxlTLACqXWCoKkruicuE7LDw=w1920-h1080-k-no" alt="Vibe 3" />
-            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmdq_vYBfcXbtKolgEyBaKv8QRz_JD5MkjmyxuESXBYaZ6cV1IX9PCSvDHX2Z1fn0YX-z6scQFO7JVwKBZwCWV5vTFmSwPapHG3o8FHMTqMYwzV_fGfiexH2raTsx_ch42kOvE=w1920-h1080-k-no" alt="Vibe 4" />
-            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkFHIrhLSwEsmFvUlzjfllE6WbwZSsToJD4T9jW7VFm5L2m9sJmno58SPFpdfdkVOTqkrqaPbkmXdf1F2mzRN5Be6BxER0gnOWpRlil1i49p0ZJyYGn_pfRLKPj7awxCWhvidxK5dYHquTd=w1920-h1080-k-no" alt="Vibe 5" />
-            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlqGP6D0Ww9MqE5reU-x-7tlfKPahMaJzIO-nN7p4oBamyukUXdXdpZynegwhwIsejvWRNJATvYmlmYnqi5E3RWo99c8hy9MjVQGiyDmFVhGJ-YMfODlL4cUZYvm8CRvxdetpw8buHClkOI=w1920-h1080-k-no" alt="Vibe 6" />
-            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWksEkAmeiO26sSHIZ3At8tEvsQd7Ul3oXyuFg85psk10LAeWr0PJSXx9zES6ZRUyLtFfjHke7wmjA0_5_HENpsW6dW_ZN95HUShnPp67MNR5rXUc8Qx3JZqAD4y2qwax0TPmesZTFyKkrnL=w1920-h1080-k-no" alt="Vibe 7" />
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmwfO6UFUuo1Eg55iA9NBD8w0F4kasf9MsqvKqwfd3DI8K-M9uiSyl5NGSwvxSjSs-LLI4XCDkhdhNHshNlUHgIksBX2yDVbbZ7ECv2O2SbM2ILZmdDZm2eSGaGnihIBcnvVousrA=w1920-h1080-k-no" alt="Vibe 1" width="1200" height="800" decoding="async" />
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmEEV0o_ht5evq-q6i1-pQvgwwG9JDn7PisvEogQ3UYXPUJUJwdlhkqvjqrD9TrbL3sU9wUciiX8XB2rNwhESxekFwbdujWqa2ojH_EOGZQfS2s_h3Pn-wi7VLACT1cXoF1Rzcw8eAYUFA=w1920-h1080-k-no" alt="Vibe 2" width="1200" height="800" decoding="async" />
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWn53hOqWLZB0V9U_oHRdZKEzRSQ8qTFzrAElf3cGqmnkXfTUzUyaQp0KttoaHCdy24yT1H_dW7CFSNxadi6jIedRDn5Nm7X3mMc7nGmYVcgON5yklkpatKHsxlTLACqXWCoKkruicuE7LDw=w1920-h1080-k-no" alt="Vibe 3" width="1200" height="800" decoding="async" />
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmdq_vYBfcXbtKolgEyBaKv8QRz_JD5MkjmyxuESXBYaZ6cV1IX9PCSvDHX2Z1fn0YX-z6scQFO7JVwKBZwCWV5vTFmSwPapHG3o8FHMTqMYwzV_fGfiexH2raTsx_ch42kOvE=w1920-h1080-k-no" alt="Vibe 4" width="1200" height="800" decoding="async" />
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkFHIrhLSwEsmFvUlzjfllE6WbwZSsToJD4T9jW7VFm5L2m9sJmno58SPFpdfdkVOTqkrqaPbkmXdf1F2mzRN5Be6BxER0gnOWpRlil1i49p0ZJyYGn_pfRLKPj7awxCWhvidxK5dYHquTd=w1920-h1080-k-no" alt="Vibe 5" width="1200" height="800" decoding="async" />
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlqGP6D0Ww9MqE5reU-x-7tlfKPahMaJzIO-nN7p4oBamyukUXdXdpZynegwhwIsejvWRNJATvYmlmYnqi5E3RWo99c8hy9MjVQGiyDmFVhGJ-YMfODlL4cUZYvm8CRvxdetpw8buHClkOI=w1920-h1080-k-no" alt="Vibe 6" width="1200" height="800" decoding="async" />
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWksEkAmeiO26sSHIZ3At8tEvsQd7Ul3oXyuFg85psk10LAeWr0PJSXx9zES6ZRUyLtFfjHke7wmjA0_5_HENpsW6dW_ZN95HUShnPp67MNR5rXUc8Qx3JZqAD4y2qwax0TPmesZTFyKkrnL=w1920-h1080-k-no" alt="Vibe 7" width="1200" height="800" decoding="async" />
           </div>
           <Vibe />
         </section>

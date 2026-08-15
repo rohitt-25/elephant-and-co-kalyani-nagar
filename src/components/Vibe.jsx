@@ -67,7 +67,7 @@ const Vibe = () => {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(12, 1fr)', gap: '24px' }}>
           <div style={{ gridColumn: 'span 8', borderRadius: '20px', border: '1px solid rgba(255,255,255,0.08)', overflow: 'hidden' }}>
             <div className="parallax-layer" style={{ width: '100%', height: '500px' }}>
-              <img src={photos[0].src} alt={photos[0].alt} width={photos[0].width} height={photos[0].height} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src={photos[0].src} alt={photos[0].alt} width={photos[0].width} height={photos[0].height} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} decoding="async" />
             </div>
           </div>
 
@@ -75,7 +75,7 @@ const Vibe = () => {
             {[1, 2].map((idx) => (
               <div key={idx} style={{ borderRadius: '20px', border: '1px solid rgba(255,255,255,0.08)', overflow: 'hidden' }}>
                 <div className="parallax-layer" style={{ width: '100%', height: '238px' }}>
-                  <img src={photos[idx].src} alt={photos[idx].alt} width={photos[idx].width} height={photos[idx].height} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                  <img src={photos[idx].src} alt={photos[idx].alt} width={photos[idx].width} height={photos[idx].height} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} decoding="async" />
                 </div>
               </div>
             ))}
@@ -83,7 +83,7 @@ const Vibe = () => {
 
           <div style={{ gridColumn: 'span 12', borderRadius: '20px', border: '1px solid rgba(255,255,255,0.08)', overflow: 'hidden' }}>
             <div className="parallax-layer" style={{ width: '100%', height: '400px' }}>
-              <img src={photos[3].src} alt={photos[3].alt} width={photos[3].width} height={photos[3].height} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src={photos[3].src} alt={photos[3].alt} width={photos[3].width} height={photos[3].height} loading="lazy" style={{ width: '100%', height: '100%', objectFit: 'cover' }} decoding="async" />
             </div>
           </div>
         </div>

@@ -22,7 +22,7 @@ const WhatsAppButton = () => {
       href="https://wa.me/919766838529?text=Hi!%20I'd%20like%20to%20book%20a%20table%20at%20Elephant%20and%20Co.%20Kalyani%20Nagar"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#059669] shadow-lg transition-transform duration-200 ease-out hover:scale-[1.08] active:scale-95 focus:outline-none focus:ring-4 focus:ring-[#F97316]"
+      className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#047857] shadow-lg transition-transform duration-200 ease-out hover:scale-[1.08] active:scale-95 focus:outline-none focus:ring-4 focus:ring-[#F97316]"
       aria-label="Contact us on WhatsApp"
       style={{
         WebkitTapHighlightColor: 'transparent',
@@ -31,7 +31,7 @@ const WhatsAppButton = () => {
     >
       <div 
         ref={pulseRef}
-        className="absolute inset-0 rounded-full bg-[#059669] opacity-50"
+        className="absolute inset-0 rounded-full bg-[#047857] opacity-50"
       />
       <svg
         viewBox="0 0 24 24"

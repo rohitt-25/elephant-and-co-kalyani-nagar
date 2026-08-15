@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="flex flex-col justify-center items-start md:items-end gap-6">
           <a 
             href={business.whatsappLink}
-            className="min-h-[44px] flex items-center justify-center bg-[#EA580C] text-[#FFFFFF] font-['Poppins'] font-semibold px-8 py-4 rounded-[12px] hover:bg-[#F97316] focus:outline-none focus:ring-2 focus:ring-[#F97316] transition-all shadow-[0_0_20px_rgba(234,88,12,0.15)]"
+            className="min-h-[44px] flex items-center justify-center bg-[#C2410C] text-[#FFFFFF] font-['Poppins'] font-semibold px-8 py-4 rounded-[12px] hover:bg-[#9A3412] focus:outline-none focus:ring-2 focus:ring-[#F97316] transition-all shadow-[0_0_20px_rgba(234,88,12,0.15)]"
           >
             Book on WhatsApp
           </a>
